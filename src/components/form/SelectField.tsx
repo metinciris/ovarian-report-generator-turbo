@@ -25,13 +25,16 @@ const SelectField: React.FC<SelectFieldProps> = ({
   placeholder = "Seçiniz",
   className
 }) => {
+  // Filter out options with empty string values
+  const validOptions = options.filter(option => option.value !== "");
+  
   return (
     <Select value={value} onValueChange={onChange}>
       <SelectTrigger className={cn("w-full", className)}>
         <SelectValue placeholder={placeholder} />
       </SelectTrigger>
       <SelectContent>
-        {options.map((option) => (
+        {validOptions.map((option) => (
           <SelectItem key={option.value} value={option.value}>
             {option.label}
           </SelectItem>

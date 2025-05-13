@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { FormData } from "@/types";
 import { Button } from "@/components/ui/button";
@@ -314,7 +313,7 @@ const PathologyForm: React.FC<PathologyFormProps> = ({ formData, onUpdateFormDat
             </div>
 
             <div>
-              <label className="block text-sm font-medium mb-1">Metastaz > 10 mm olan Lenf Nodu Sayısı:</label>
+              <label className="block text-sm font-medium mb-1">Metastaz &gt; 10 mm olan Lenf Nodu Sayısı:</label>
               <Input
                 type="number"
                 value={formData.lymphNodesMetastasisLarge}

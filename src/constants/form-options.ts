@@ -1,4 +1,3 @@
-
 import { CheckboxOption, SelectOption } from "@/types";
 
 export const histologicTypeOptions: CheckboxOption[] = [
@@ -55,7 +54,7 @@ export const histologicTypeOptions: CheckboxOption[] = [
 ];
 
 export const histologicGradeWHOOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "G1: İyi diferansiye", label: "G1: İyi diferansiye" },
   { value: "G2: Orta diferansiye", label: "G2: Orta diferansiye" },
   { value: "G3: Az diferansiye", label: "G3: Az diferansiye" },
@@ -63,48 +62,48 @@ export const histologicGradeWHOOptions: SelectOption[] = [
 ];
 
 export const figoGradeOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "FIGO Derece 1 (%5 veya daha az skuamöz olmayan solid büyüme)", label: "FIGO Derece 1 (%5 veya daha az skuamöz olmayan solid büyüme)" },
   { value: "FIGO Derece 2 (%6 - %50 skuamöz olmayan solid büyüme)", label: "FIGO Derece 2 (%6 - %50 skuamöz olmayan solid büyüme)" },
   { value: "FIGO Derece 3 (%50'den fazla skuamöz olmayan solid büyüme)", label: "FIGO Derece 3 (%50'den fazla skuamöz olmayan solid büyüme)" }
 ];
 
 export const silverbergGradeOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Silverberg Derece 1 (puan 3-5)", label: "Silverberg Derece 1 (puan 3-5)" },
   { value: "Silverberg Derece 2 (puan 6-7)", label: "Silverberg Derece 2 (puan 6-7)" },
   { value: "Silverberg Derece 3 (puan 8-9)", label: "Silverberg Derece 3 (puan 8-9)" }
 ];
 
 export const growthPatternGradeOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Düşük derece, büyüme paterni-bazlı (konfluent / ekspansif büyüme veya %10 veya daha az infiltratif büyüme)", label: "Düşük derece, büyüme paterni-bazlı (konfluent / ekspansif büyüme veya %10 veya daha az infiltratif büyüme)" },
   { value: "Yüksek derece, büyüme paterni-bazlı (tümörün %10'undan fazlasında infiltratif büyüme)", label: "Yüksek derece, büyüme paterni-bazlı (tümörün %10'undan fazlasında infiltratif büyüme)" },
   { value: "Diğer büyüme paterni bazlı derecelendirme", label: "Diğer büyüme paterni bazlı derecelendirme" }
 ];
 
 export const twoTierGradeOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Düşük derece", label: "Düşük derece" },
   { value: "Yüksek derece", label: "Yüksek derece" }
 ];
 
 export const threeTierGradeOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Derece 1 (düşük derece)", label: "Derece 1 (düşük derece)" },
   { value: "Derece 2 (yüksek derece)", label: "Derece 2 (yüksek derece)" },
   { value: "Derece 3 (yüksek derece)", label: "Derece 3 (yüksek derece)" }
 ];
 
 export const invasionOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Saptanmadı", label: "Saptanmadı" },
   { value: "Mevcut", label: "Mevcut" },
   { value: "Değerlendirilemiyor", label: "Değerlendirilemiyor" }
 ];
 
 export const p53IHCOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Normal (wild type)", label: "Normal (wild type)" },
   { value: "Anormal (mutant)", label: "Anormal (mutant)" },
   { value: "Anormal, Aşırı ekspresyon (>%90 güçlü, diffüz bazilar nükleer ekspresyon)", label: "Anormal, Aşırı ekspresyon (>%90 güçlü, diffüz bazilar nükleer ekspresyon)" },
@@ -114,7 +113,7 @@ export const p53IHCOptions: SelectOption[] = [
 ];
 
 export const implantsOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Uygulanamaz", label: "Uygulanamaz" },
   { value: "Örneklenmedi", label: "Örneklenmedi" },
   { value: "Saptanmadı", label: "Saptanmadı" },
@@ -123,7 +122,7 @@ export const implantsOptions: SelectOption[] = [
 ];
 
 export const largestExtrapelvicFocusOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Mikroskopik", label: "Mikroskopik" },
   { value: "Makroskopik (≤ 2 cm)", label: "Makroskopik (≤ 2 cm)" },
   { value: "Makroskopik (> 2 cm)", label: "Makroskopik (> 2 cm)" },
@@ -131,7 +130,7 @@ export const largestExtrapelvicFocusOptions: SelectOption[] = [
 ];
 
 export const peritonealAsciticOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Gönderilmedi/bilinmiyor", label: "Gönderilmedi/bilinmiyor" },
   { value: "Malign hücre saptanmadı", label: "Malign hücre saptanmadı" },
   { value: "Atipik", label: "Atipik" },
@@ -144,7 +143,7 @@ export const peritonealAsciticOptions: SelectOption[] = [
 ];
 
 export const treatmentEffectOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Bilinen preoperatif tedavi yok", label: "Bilinen preoperatif tedavi yok" },
   { value: "CRS1 (belirgin yanıt yok veya minimal yanıt)", label: "CRS1 (belirgin yanıt yok veya minimal yanıt)" },
   { value: "CRS2 (orta derecede yanıt)", label: "CRS2 (orta derecede yanıt)" },
@@ -176,7 +175,7 @@ export const otherTissueInvolvementOptions: CheckboxOption[] = [
 ];
 
 export const marginOptions: SelectOption[] = [
-  { value: "", label: "Seçiniz" },
+  { value: "not_selected", label: "Seçiniz" },
   { value: "Değerlendirilemiyor", label: "Değerlendirilemiyor" },
   { value: "İnvaziv karsinom içermiyor", label: "İnvaziv karsinom içermiyor" },
   { value: "Karsinom içeriyor", label: "Karsinom içeriyor" }
