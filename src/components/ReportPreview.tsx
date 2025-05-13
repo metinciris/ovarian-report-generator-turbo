@@ -139,7 +139,7 @@ const ReportPreview: React.FC<ReportPreviewProps> = ({ formData }) => {
         <div className="mb-4">
           <h3 className="font-semibold mb-2">Bölgesel Lenf Nodları:</h3>
           {formData.lymphNodesExamined && <p className="text-gray-700"><span className="font-medium">İncelenen Lenf Nodu Sayısı:</span> {formData.lymphNodesExamined}</p>}
-          {formData.lymphNodesMetastasisLarge && <p className="text-gray-700"><span className="font-medium">Metastaz > 10 mm olan Lenf Nodu Sayısı:</span> {formData.lymphNodesMetastasisLarge}</p>}
+          {formData.lymphNodesMetastasisLarge && <p className="text-gray-700"><span className="font-medium">Metastaz {">"} 10 mm olan Lenf Nodu Sayısı:</span> {formData.lymphNodesMetastasisLarge}</p>}
           {formData.lymphNodesMetastasisSmall && <p className="text-gray-700"><span className="font-medium">Metastaz ≤ 10 mm olan Lenf Nodu Sayısı (ITC hariç):</span> {formData.lymphNodesMetastasisSmall}</p>}
           {formData.lymphNodesITC && <p className="text-gray-700"><span className="font-medium">İzole Tümör Hücresi (≤ 0.2 mm) içeren Lenf Nodu Sayısı:</span> {formData.lymphNodesITC}</p>}
           {formData.largestMetastaticDeposit && <p className="text-gray-700"><span className="font-medium">En Büyük Metastatik Depozit Boyutu (mm):</span> {formData.largestMetastaticDeposit}</p>}
